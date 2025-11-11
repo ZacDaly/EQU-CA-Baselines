@@ -1,8 +1,24 @@
 {
   "ConditionalAccess": [
     {
-      "displayName": "Conditional Access Baselines",
-      "file": "ConditionalAccess/templates.json"
+      "displayName": "EQU BL CA 001 Require Compliant Device TEST",
+      "file": "ConditionalAccess/CA_EQU_BL_CA_001_Require_Compliant_Device_TEST.json"
+    },
+    {
+      "displayName": "EQU BL CA 002 Require Microsoft Managed Applications",
+      "file": "ConditionalAccess/CA_EQU_BL_CA_002_Require_Microsoft_Managed_Applications.json"
+    },
+    {
+      "displayName": "EQU BL CA 003 Session Reauthentication",
+      "file": "ConditionalAccess/CA_EQU_BL_CA_003_Session_Reauthentication.json"
+    },
+    {
+      "displayName": "EQU BL CA 004 Block Non UK Access",
+      "file": "ConditionalAccess/CA_EQU_BL_CA_004_Block_Non_UK_Access.json"
+    },
+    {
+      "displayName": "EQU BL CA 005 Lock BreakGlass to Equasys Office",
+      "file": "ConditionalAccess/CA_EQU_BL_CA_005_Lock_BreakGlass_to_Equasys_Office.json"
     }
   ]
 }

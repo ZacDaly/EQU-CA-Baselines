@@ -1,0 +1,8 @@
+{
+  "ConditionalAccess": [
+    {
+      "displayName": "Conditional Access Baselines",
+      "file": "ConditionalAccess/templates.json"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+﻿{
+    "Conditions":  {
+                       "Applications":  {
+                                            "ApplicationFilter":  {
+                                                                      "Mode":  null,
+                                                                      "Rule":  null
+                                                                  },
+                                            "ExcludeApplications":  [
+
+                                                                    ],
+                                            "IncludeApplications":  [
+                                                                        "All"
+                                                                    ],
+                                            "IncludeAuthenticationContextClassReferences":  [
+
+                                                                                            ],
+                                            "IncludeUserActions":  [
+
+                                                                   ]
+                                        },
+                       "AuthenticationFlows":  {
+                                                   "TransferMethods":  null
+                                               },
+                       "ClientAppTypes":  [
+                                              "all"
+                                          ],
+                       "ClientApplications":  {
+                                                  "ExcludeServicePrincipals":  null,
+                                                  "IncludeServicePrincipals":  null,
+                                                  "ServicePrincipalFilter":  {
+                                                                                 "Mode":  null,
+                                                                                 "Rule":  null
+                                                                             }
+                                              },
+                       "Devices":  {
+                                       "DeviceFilter":  {
+                                                            "Mode":  null,
+                                                            "Rule":  null
+                                                        }
+                                   },
+                       "InsiderRiskLevels":  null,
+                       "Locations":  {
+                                         "ExcludeLocations":  null,
+                                         "IncludeLocations":  null
+                                     },
+                       "Platforms":  {
+                                         "ExcludePlatforms":  [
+
+                                                              ],
+                                         "IncludePlatforms":  [
+                                                                  "windows",
+                                                                  "macOS"
+                                                              ]
+                                     },
+                       "ServicePrincipalRiskLevels":  [
+
+                                                      ],
+                       "SignInRiskLevels":  [
+
+                                            ],
+                       "UserRiskLevels":  [
+
+                                          ],
+                       "Users":  {
+                                     "ExcludeGroups":  [
+
+                                                       ],
+                                     "ExcludeGuestsOrExternalUsers":  {
+                                                                          "ExternalTenants":  {
+                                                                                                  "MembershipKind":  "all"
+                                                                                              },
+                                                                          "GuestOrExternalUserTypes":  "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser,serviceProvider"
+                                                                      },
+                                     "ExcludeRoles":  [
+                                                          "d29b2b05-8046-44ba-8758-1e26182fcf32"
+                                                      ],
+                                     "ExcludeUsers":  [
+                                                          "de834e79-c901-4e95-9d99-581cb5f37ec1"
+                                                      ],
+                                     "IncludeGroups":  [
+
+                                                       ],
+                                     "IncludeGuestsOrExternalUsers":  {
+                                                                          "ExternalTenants":  {
+                                                                                                  "MembershipKind":  null
+                                                                                              },
+                                                                          "GuestOrExternalUserTypes":  null
+                                                                      },
+                                     "IncludeRoles":  [
+
+                                                      ],
+                                     "IncludeUsers":  [
+                                                          "All"
+                                                      ]
+                                 }
+                   },
+    "CreatedDateTime":  "\/Date(1751978809584)\/",
+    "Description":  null,
+    "DisplayName":  "EQU BL - CA 001 - Require Compliant Device",
+    "GrantControls":  {
+                          "AuthenticationStrength":  {
+                                                         "AllowedCombinations":  null,
+                                                         "CombinationConfigurations":  null,
+                                                         "CreatedDateTime":  null,
+                                                         "Description":  null,
+                                                         "DisplayName":  null,
+                                                         "Id":  null,
+                                                         "ModifiedDateTime":  null,
+                                                         "PolicyType":  null,
+                                                         "RequirementsSatisfied":  null
+                                                     },
+                          "BuiltInControls":  [
+                                                  "compliantDevice"
+                                              ],
+                          "CustomAuthenticationFactors":  [
+
+                                                          ],
+                          "Operator":  "OR",
+                          "TermsOfUse":  [
+
+                                         ]
+                      },
+    "Id":  "6b24a97b-6117-4b40-97c1-428cd58c4607",
+    "ModifiedDateTime":  "\/Date(1762774988965)\/",
+    "SessionControls":  {
+                            "ApplicationEnforcedRestrictions":  {
+                                                                    "IsEnabled":  null
+                                                                },
+                            "CloudAppSecurity":  {
+                                                     "CloudAppSecurityType":  null,
+                                                     "IsEnabled":  null
+                                                 },
+                            "DisableResilienceDefaults":  null,
+                            "PersistentBrowser":  {
+                                                      "IsEnabled":  null,
+                                                      "Mode":  null
+                                                  },
+                            "SecureSignInSession":  {
+                                                        "IsEnabled":  null
+                                                    },
+                            "SignInFrequency":  {
+                                                    "AuthenticationType":  null,
+                                                    "FrequencyInterval":  null,
+                                                    "IsEnabled":  null,
+                                                    "Type":  null,
+                                                    "Value":  null
+                                                }
+                        },
+    "State":  "enabled",
+    "TemplateId":  "a297dd1a-21fe-4016-99a0-ba43ba64378c",
+    "AdditionalProperties":  {
+
+                             }
+}

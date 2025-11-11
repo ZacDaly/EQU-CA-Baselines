@@ -1,0 +1,5 @@
+{
+  "name": "EQU-BL Conditional Access Templates",
+  "type": "ConditionalAccess",
+  "description": "Baseline Conditional Access policies for CIPP import"
+}

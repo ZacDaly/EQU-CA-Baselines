@@ -1,7 +1,8 @@
 {
-  "ConditionalAccess": [
+  "templates": [
     {
-      "displayName": "Conditional Access Baselines",
+      "type": "ConditionalAccess",
+      "displayName": "Equasys CA Baselines",
       "file": "ConditionalAccess/templates.json"
     }
   ]
